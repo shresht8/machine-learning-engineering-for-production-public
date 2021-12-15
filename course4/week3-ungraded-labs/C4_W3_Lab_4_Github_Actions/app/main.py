@@ -24,4 +24,5 @@ def predict(wine: Wine):
     pred = clf.predict(np_batches).tolist()
     return {"Prediction": pred}
 
+# Trail change
 # TO Add changes
